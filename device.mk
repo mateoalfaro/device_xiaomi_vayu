@@ -405,7 +405,8 @@ PRODUCT_PACKAGES += \
    SystemUIOverlayVayu \
    TelephonyOverlayVayu \
    TetheringConfigOverlayVayu \
-   WifiOverlayVayu
+   WifiOverlayVayu \
+   SettingsXD
 
 # Power
 PRODUCT_PACKAGES += \
