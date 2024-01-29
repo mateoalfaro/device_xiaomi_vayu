@@ -7,9 +7,9 @@
   },
   {
    "remote": "github",
-   "repository": "kernel_xiaomi_vayu",
+   "repository": "android/kernel_xiaomi_vayu",
    "target_path": "kernel/xiaomi/vayu",
-   "branch": "thirteen"
+   "branch": "stock"
   },
   { 
     "remote": "github",
