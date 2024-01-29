@@ -3,7 +3,7 @@
   { "remote":"github",
     "repository": "device_xiaomi_vayu",
     "target_path": "device/xiaomi/vayu",
-    "revision":"PB-unity"
+    "revision":"pixys"
   },
   {
    "remote": "github",
