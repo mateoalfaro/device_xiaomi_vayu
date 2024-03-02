@@ -11,24 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
-# Inherit some common SuperiorOS stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+# Inherit some common Bananadroid stuff.
+$(call inherit-product, vendor/banana/config/common.mk)
 
 
-# Device info Properties
-MAINTAINER := Gaba
-CHIPSET := msmnile
-
-
-# Superior flags
-TARGET_INCLUDE_PIXEL_CHARGER := true
-TARGET_ENABLE_BLUR := true
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-
-
-PRODUCT_NAME := superior_vayu
+PRODUCT_NAME := banana_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := Poco X3 Pro
