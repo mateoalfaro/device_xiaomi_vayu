@@ -57,6 +57,9 @@ MALLOC_SVELTE_FOR_LIBC32 := true
 # Camera override hidl
 TARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT := true
 
+# Camera sepolicy
+include vendor/xiaomi/miuicamera/products/board.mk
+
 # Display
 TARGET_USES_DISPLAY_RENDER_INTENTS := true
 TARGET_USES_DRM_PP := true
