@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_vayu.mk
+    $(LOCAL_DIR)/aosp_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_vayu-eng \
-    pixys_vayu-userdebug \
-    pixys_vayu-user
+    aosp_vayu-eng \
+    aosp_vayu-userdebug \
+    aosp_vayu-user
