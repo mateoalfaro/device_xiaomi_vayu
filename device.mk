@@ -63,6 +63,9 @@ PRODUCT_PACKAGES += \
     libvisualizer \
     libvolumelistener
 
+PRODUCT_PACKAGES += \
+    libaudioroute.vendor
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
@@ -123,6 +126,10 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     libxml2 \
     vendor.qti.hardware.camera.postproc@1.0.vendor
+
+PRODUCT_PACKAGES += \
+    libpng.vendor \
+    libutilscallstack.vendor
 
 PRODUCT_PACKAGES += \
     libshim_megvii \
@@ -197,6 +204,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.vulkan.level-1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level-1.xml \
     frameworks/native/data/etc/android.hardware.vulkan.version-1_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_1.xml \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
+
+PRODUCT_PACKAGES += \
+    libstagefright_softomx.vendor \
+    libstagefright_softomx_plugin.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -434,6 +445,12 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     libprotobuf-cpp-lite \
     librmnetctl
+
+PRODUCT_PACKAGES += \
+    libcurl.vendor \
+    libjsoncpp.vendor \
+    libsqlite.vendor \
+    libssl.vendor
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.se.omapi.ese.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.se.omapi.ese.xml \
