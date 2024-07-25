@@ -105,8 +105,7 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session
 
 # Camera
-$(call inherit-product-if-exists, vendor/xiaomi/vayu-miuicamera/products/miuicamera.mk)
-
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
